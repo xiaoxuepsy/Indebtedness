@@ -1,5 +1,6 @@
 %%==========================================================================
-% This is the main part of codes for help rejection model proposed by Gao et al., 2021, The hidden cost of receiving favors: A theory of indebtedness
+% This is the main part of codes for help rejection model proposed by Gao, X., Jolly, E., Yu, H., Liu, H., Zhou, X., & Chang, L. J. (2020). The hidden cost of receiving favors: A theory of indebtedness. BioRxiv, 2020-02. doi: https://doi.org/10.1101/2020.02.03.926295
+% This article has been accepted by Nature Communications. Title: The psychological, computational, and neural foundations of indebtedness.
 % This script should be used in combination with the function file:
 % Help_rejection_model_function.m
 % Detailed tutorials for package installation and computational modeling: https://dubioussentiments.wordpress.com/2014/07/09/matlab-object-oriented-model-fitting-tutorial/
