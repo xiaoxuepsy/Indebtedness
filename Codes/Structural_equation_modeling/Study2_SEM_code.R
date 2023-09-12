@@ -90,10 +90,11 @@ ECPCare := a21+a22+a23
 '
 fit <- sem(model, data = SEM_data)
 summary(fit, fit.measures = T, standardized = T)
+boot.fit <- parameterEstimates(fit, boot.ci.type = 'bca.simple')
+fitMeasures(fit,c("chisq","df","pvalue","cfi","nfi","ifi","rmsea","EVCI"))
 
-
-dev.new() #ÐÂ½¨Ò»¸öÍ¼ÐÎ´°¿Ú
-#»æÖÆÂ·¾¶Í¼
+dev.new() #æ–°å»ºä¸€ä¸ªå›¾å½¢çª—å£
+#ç»˜åˆ¶è·¯å¾„å›¾
 library(semPlot)
 semPaths(fit,what = "std", 
          rotation = 2, 
